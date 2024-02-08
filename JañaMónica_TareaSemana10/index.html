@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+    <!--Iconos-->
+    <script src="https:kit.fontawesome.com/9e15f108bc.js" crossorigin="anonymous"></script>
+   
+    <title>Publicidad</title>
+</head>
+<body>
+
+    <div class="flex-container">
+    
+            <div id="img1" class=oferta1 >
+                <p class="oferta">Oferta</p>
+                <div  class="description_continer">
+                    <p class="description   " >Hs Camiseta Once Caldas Oficial Pro Elite - Patrocinadores</p>
+                    <p class="price1">$60,53</p>
+                    <p class="price2">$42,37</p> 
+                </div>
+            </div>
+            
+        <div id="img2" class=oferta2 >
+            <p class="oferta">Oferta</p>
+            <div  class="description_continer">
+                <p class="description">HS Uniforme Visitante Deportivo Cali ACADEMIA</p>
+                <p class="price1">$37,34</p>
+                <p class="price2">$26,14</p> 
+            </div>
+        </div>
+        <div id="img3"  class=oferta3 >
+            <p class="oferta">Oferta</p>
+            <div  class="description_continer">
+                <p class="description">Hs Uniforme Deportivo Cali ACADEMIA</p>
+                <p class="price1">$37,34</p>
+                <p class="price2">$26,14</p> 
+            </div>
+        </div>
+    </div>
+
+    <!--Crear models de las descripciones-->
+    <div id="description1" class="description-container">
+        
+        <div>
+            <img src="img/1camisetacaliverdefrontal.webp">
+        </div>
+        <div >
+            <h3> Hs Camiseta Once Caldas Oficial Pro Elite</h3>
+            <h3>Patrocinadores</h3>
+            <p>117321-WHT-P</p>
+            <div class="d2">
+                <p class="price1">$60,53</p>
+                <p class="price2">$42,37</p> 
+                <p class="ofertP">Oferta</p>
+            </div>
+            <p>Impuesto incluido. Los gastos de envio se calculan en la pantalla de pago</p>
+            <div class="d2">
+                <p class="talla">S</p>
+                <p class="talla">M</p>
+                <p class="talla">L</p>
+                <p class="talla">XL</p>
+                <p class="talla">XXL</p>
+                <p class="talla">XXXL</p>
+            </div>
+        </div>
+        <div id="cerrar1"><i class="fas fa-times"></i> </div>
+    </div>
+
+    <div id="description2" class="description-container">
+        
+        <div>
+            <img src="img/2camisetacaliblackfrontal.webp">
+        </div>
+        <div >
+            <h3> HS Uniforme Visitante Deportivo Cali </h3>
+            <h3>ACADEMIA</h3>
+            <p>117321-WHT-P</p>
+            <div class="d2">
+                <p class="price1">$37,34</p>
+                <p class="price2">$26,14</p> 
+                <p class="ofertP">Oferta</p>
+            </div>
+            <p>Impuesto incluido. Los gastos de envio se calculan en la pantalla de pago</p>
+            <div class="d2">
+                <p class="talla">S</p>
+                <p class="talla">M</p>
+                <p class="talla">L</p>
+                <p class="talla">XL</p>
+                <p class="talla">XXL</p>
+                <p class="talla">XXXL</p>
+            </div>
+        </div>
+        <div id="cerrar2"><i class="fas fa-times"></i> </div>
+    </div>
+    
+        
+    <div id="description3" class="description-container">
+        <div>
+            <img src="img/3camisetacaliverdefrontal2.webp">
+        </div>
+        <div >
+            <h3> Hs Uniforme Deportivo Cali </h3>
+            <h3>ACADEMIA</h3>
+            <p>117321-WHT-P</p>
+            <div class="d2">
+                <p class="price1">$37,34</p>
+                <p class="price2">$26,14</p> 
+                <p class="ofertP">Oferta</p>
+            </div>
+            <p>Impuesto incluido. Los gastos de envio se calculan en la pantalla de pago</p>
+            <div class="d2">
+                <p class="talla">S</p>
+                <p class="talla">M</p>
+                <p class="talla">L</p>
+                <p class="talla">XL</p>
+                <p class="talla">XXL</p>
+                <p class="talla">XXXL</p>
+            </div>
+        </div>
+        <div id="cerrar3"><i class="fas fa-times"></i> </div>
+    
+        <script type="text/javascript" src="js/model.js"></script>
+    </div>
+
+        <!--fromulario de reclamo con bustrap-->
+
+        <div class="container">
+            <h2>Formulario de Reclamo</h2>
+            <form>
+              <div class="mb-3">
+                <label for="nombre" ><i class="fa fa-user icono"></i>Nombre:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingresa tu nombre completo" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="nombre" ><i class="fa fa-user icono"></i>Apellido:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingresa tu apellido completo" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="nombre" ><i class="fa fa-home icono"></i>Direccion:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingresa tu dirección actual" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="correo"><i class="fa fa-envelope icono"></i>Correo:</label>
+                <input type="email" id="disabledTextInput" class="form-control" placeholder="Ingresa tu dirección de correo electrónico" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="telefono"><i class="fa fa-phone icono"></i>Teléfono:</label>
+                <input type="tel" id="disabledTextInput" class="form-control" pattern="[0-9]{10}" placeholder="Ingresa tu número de teléfono (10 dígitos)" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="fecha"><i class="fa fa-calendar icono"></i>Fecha de Reclamo:</label>
+                <input type="date" id="disabledTextInput" class="form-control"  placeholder="Selecciona la fecha de tu reclamo" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="descripcion"><i class="fa fa-comment icono"></i>Descripción del Reclamo:</label>
+                <textarea id="disabledTextInput" class="form-control" rows="4"  placeholder="Escribe una descripción detallada de tu reclamo" required></textarea>
+              </div>
+              
+              <div class="mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                    Acepto los términos y condiciones
+                  </label>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar Reclamo</button>
+        
+              <p class="terminos-condiciones">Al enviar este formulario, aceptas nuestros términos y condiciones.</p>
+            </form>
+          </div>
+
+    
+</body>
+</html>
